@@ -1,0 +1,9 @@
+[package]
+name = "ai_vault"
+version = "0.0.1"
+
+[addresses]
+ai_vault = "0xf92bce78284e26625730399419494ca7991a6788fa8d9171be313f41e8f02ccd"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }
